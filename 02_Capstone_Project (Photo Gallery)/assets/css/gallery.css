@@ -1,0 +1,39 @@
+#Gallery
+{
+    padding-bottom: 0;
+}
+
+#Gallery .container
+{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 0;
+}
+
+#Gallery .container img
+{
+    filter: grayscale(100);
+    width: 100%;
+    aspect-ratio: 1/1;
+    transition: all 2s;
+}
+
+#Gallery .container img:first-child
+{
+    grid-row: span 2;
+    aspect-ratio: 1/2;
+}
+
+#Gallery .container img:hover
+{
+    filter: none;
+    cursor: pointer;
+}
+
+#Gallery .container img:active
+{
+    transform: scale(1.2);
+    z-index: 1;
+    border: 2px solid burlywood;
+}
