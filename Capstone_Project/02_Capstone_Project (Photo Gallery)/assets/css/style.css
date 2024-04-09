@@ -102,32 +102,6 @@ main section h2
     width: 300px;
 }
 
-#Achievements table
-{
-    font-size: medium;
-    width: 95%;
-}
-
-#Achievements table td
-{
-    width: 50%;
-}
-
-#Achievements table td:first-child
-{
-    text-align: center;
-}
-
-#Achievements table td:last-child
-{
-    line-height: 1.5;
-    text-align: justify;
-}
-
-#Achievements table td:last-child span
-{
-    font-weight: bold;
-}
 
 /*Contact Section*/
 #Contact

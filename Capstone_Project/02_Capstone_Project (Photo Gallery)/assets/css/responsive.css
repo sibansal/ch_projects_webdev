@@ -1,0 +1,46 @@
+@media screen and (max-width: 768px) {
+    #hero
+    {
+        line-height: 1;
+    }
+
+    #Achievements
+    {
+        padding: 0;
+    }
+
+    #Achievements .container
+    {
+        flex-direction: column;
+
+    }
+
+    #Achievements .container div:first-child
+    {
+        text-align: center;
+    }
+
+    #Achievements .container div:last-child
+    {
+        padding-top: 10px;
+        width: 100%;
+    }
+
+    #Gallery .container
+    {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    #Gallery .container img:last-child
+    {
+        grid-column: span 2;
+        aspect-ratio: 2/1;
+    }
+}
+
+@media screen and (max-width: 512px) {
+    #Gallery .container
+    {
+        grid-template-columns: 1fr;
+    }
+}
