@@ -1,9 +1,43 @@
 # Introduction to Capstone Project - 2
 ## Made with 💝 for Christel House Students 😊
 
-## Achievement Section
+## Download boiler plate
+On your dev environment, use following command or [click here](https://static.sibansal.dev/ch_cp2.zip) to download assets directly:
+```
+wget static.sibansal.dev/ch_cp2.zip
+```
 
-### Markup
+To unzip assets, use:
+```
+unzip ch_cp2.zip
+```
+
+## Download assets
+On your dev environment, use following command or [click here](https://static.sibansal.dev/ch_webdev_capstone_project_assets.zip) to download assets directly:
+```
+wget static.sibansal.dev/ch_webdev_capstone_project_assets.zip
+```
+
+To unzip assets, use:
+```
+unzip ch_webdev_capstone_project_assets.zip
+```
+
+## Test Server Commands
+Start Server:
+```
+npx http-server .
+```
+
+Stop Server:
+```
+CTRL + C
+```
+## Updated Sections
+
+### Achievement Section
+
+#### Markup
 ```
         <section id="Achievements">
             <h2>Achievements</h2>
@@ -38,7 +72,7 @@
         </section>
 ```
 
-### Styling
+#### Styling
 ```
 #Achievements .container
 {
@@ -53,9 +87,9 @@
 }
 ```
 
-## Gallery Section
+### Gallery Section
 
-### Markup
+#### Markup
 ```
         <section id="Gallery">
             <h2>Gallery</h2>
@@ -72,7 +106,7 @@
         </section>
 ```
 
-### Styling
+#### Styling
 ```
 #Gallery
 {
